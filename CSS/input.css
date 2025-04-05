@@ -2,4 +2,13 @@
 
 body{
     font-family: "Bai Jamjuree", sans-serif;
+    background-image: url(../image/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media(max-width:576){
+    body{
+        background-image: url(../image/bg-header-mobile.png);
+    }
 }
